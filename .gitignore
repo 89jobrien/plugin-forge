@@ -1,0 +1,24 @@
+/target
+.DS_Store
+.pytest_cache
+.ruff_cache
+.venv
+.env
+.env.*
+!.env.example
+.ctx/*.state.yaml
+.ctx/HANDOFF.*.state.yaml
+
+# handoff-begin
+.ctx/*
+!.ctx/HANDOFF.yaml
+!.ctx/HANDOFF.*.yaml
+.ctx/HANDOFF.*.*.yaml
+.ctx/HANDOFF.*.state.yaml
+.ctx/HANDOFF.*.state.json
+!.ctx/handoff.*.config.toml.example
+.ctx/HANDOFF.*.*.state.json
+.ctx/HANDOFF.hj.hj.state.json
+.ctx/.initialized
+# handoff-end
+.ctx/opavs/phase
